@@ -174,7 +174,7 @@ David 大叔主要介绍了2个优化方案，而这也是最主要的2个优化
 > 原文链接：Know Your Engines: How to Make Your JavaScript Fast  
 > [http://t.cn/RIROY1W](http://conferences.oreilly.com/velocity/velocity2011/public/schedule/detail/18087)
 
-### 查看 Chrome 浏览器下的 CG 过程
+### 查看 Chrome 浏览器下的 GC 过程
 
 1. 使用快捷键 `F12` 或者 `Ctrl+Shift+J` 打开 Chrome 浏览器的「开发者工具」。
 2. 选择 `Timeline` 选项卡，在 `Capture` 选项中，只勾选 `Memory`。
@@ -187,8 +187,8 @@ David 大叔主要介绍了2个优化方案，而这也是最主要的2个优化
 
 ## 关卡
 
-- 挑战一，尝试写一段小程序，触发 IE6 的无限 CG。
-- 挑战二，参考「查看 Chrome 浏览器下的 CG 过程」，尝试查看 Firefox  浏览器下的 CG 过程。
+- 挑战一，尝试写一段小程序，触发 IE6 的无限 GC。
+- 挑战二，参考「查看 Chrome 浏览器下的 GC 过程」，尝试查看 Firefox  浏览器下的 GC 过程。
 
 ## 更多
 
